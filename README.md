@@ -48,9 +48,10 @@ To initialize, call the Finteza.initialize method in the Application.onCreate or
 
 Set the website ID as {WEBSITE_ID}. It can be obtained in the website settings (ID field) of the Finteza panel. Next, set the parameters:
 
-Parameter | Type | Description
-site | string | Website domain name, for example, "my.site.com".
-product | string | Product name to be used as a prefix for labeling events sent to Finteza by your application.
+| Parameter | Type | Description |
+| ----------- | ----------- |
+| site | string | Website domain name, for example, "my.site.com". | 
+| product | string | Product name to be used as a prefix for labeling events sent to Finteza by your application. |
 
 You may need it to separate events across different platforms in case you have apps for PC, iOS, Android, etc. For example, if you specify the "Android App" product and send "Registration" event, the final event name in Finteza will be "Android App Registration".
 
