@@ -49,7 +49,7 @@ To initialize, call the Finteza.initialize method in the Application.onCreate or
 Set the website ID as {WEBSITE_ID}. It can be obtained in the website settings (ID field) of the Finteza panel. Next, set the parameters:
 
 | Parameter | Type | Description |
-| ----------- | ----------- |
+| ----------- | ----------- | ----------- |
 | site | string | Website domain name, for example, "my.site.com". | 
 | product | string | Product name to be used as a prefix for labeling events sent to Finteza by your application. |
 
